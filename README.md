@@ -28,8 +28,7 @@ Scripts and their purposes
 - mapping/add_read_groups.sh  
   Adds read-group (RG) information using Picard's `AddOrReplaceReadGroups`. It outputs `.addRG.marked.sorted.bam` files, which are needed for downstream GATK analyses.
 
-- mapping/gatk.nf  
-- mapping/test.nf  
+- mapping/gatk.nf & mapping/test.nf  
   Ignore these Nextflow scripts. I tried to implement the pipeline using Nextflow to automate things, but I need more time to finalise this.
 
 Run order:
