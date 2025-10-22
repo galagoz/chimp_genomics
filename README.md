@@ -6,7 +6,7 @@ This repository contains scripts for performing QC, preprocessing data, aligning
 
 ## 2- Mapping
 
-This folder contains codes to prepare mapped BAMs and a small Nextflow pipeline for GATK-based processing.
+This folder contains codes to map raw reads to the chimp genome, and prepare BAM files for GATK.
 
 Prerequisites
 - Access to an HPC (for the MPI-PL, lux13 and Gridmaster).
